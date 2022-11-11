@@ -11,7 +11,7 @@ const Home = () => {
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md text-white">
                         <h1 className="mb-5 text-5xl font-bold">Breaking news </h1>
-                        <p className="mb-5">Brazil manager Tite announced his list of 26 players to represent the five-time world champions at the 2022 FIFA World Cup in Qatar</p>
+                        <p className="mb-5">Brazil manager Tite announced his list of 26 players to represent the five-time world champions at the 2022 FIFA World Cup in Qatar.</p>
                         <button className="btn btn-primary">Get Started</button>
                     </div>
                 </div>
