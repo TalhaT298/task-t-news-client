@@ -17,17 +17,17 @@ const router = createBrowserRouter([
         children: [
             {
                 path: "/",
-                loader: () => fetch('http://localhost:5000/services-limited'),
+                loader: () => fetch('https://task-server-opal.vercel.app/services-limited'),
                 element: <Home></Home>
             },
             {
                 path: "/services",
-                loader: () => fetch('http://localhost:5000/services'),
+                loader: () => fetch('https://task-server-opal.vercel.app/services'),
                 element: <Services></Services>
             },
             {
                 path: "/services/:id",
-                loader: ({params}) => fetch(`http://localhost:5000/services/${params.id}`),
+                loader: ({params}) => fetch(`https://task-server-opal.vercel.app/services/${params.id}`),
                 element: <Details></Details>
             },
             {
@@ -36,7 +36,7 @@ const router = createBrowserRouter([
             },
             {
                 path: "/myreviews/:email",
-                loader: ({params}) => fetch(`http://localhost:5000/review/${params.email}`),
+                loader: ({params}) => fetch(`https://task-server-opal.vercel.app/review/${params.email}`),
                 element: <MyReviews></MyReviews>
             },
             {

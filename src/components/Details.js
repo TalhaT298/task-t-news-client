@@ -18,7 +18,7 @@ const Details = () => {
         const userReview = {email, date, review, serviceId, serviceTitle};
         console.log(userReview);
 
-        fetch('http://localhost:5000/reviews', {
+        fetch('https://task-server-opal.vercel.app/reviews', {
             method: 'POST',
             headers: {'content-type': 'application/json'},
             body: JSON.stringify(userReview)
@@ -31,7 +31,7 @@ const Details = () => {
     };
 
     useEffect(() => {
-        fetch(`http://localhost:5000/reviews/${_id}`)
+        fetch(`https://task-server-opal.vercel.app/reviews/${_id}`)
             .then(res => res.json())
             .then(data => {
                 console.log(data);
