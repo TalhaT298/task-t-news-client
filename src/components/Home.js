@@ -45,7 +45,7 @@ const Home = () => {
                 <div className="w-11/12 lg:w-4/5 gap-10 mx-auto hero-content flex-col lg:flex-row">
                     <img src="https://placeimg.com/260/400/arch" className="w-full h-96 rounded-lg shadow-2xl" alt='...' />
                     <div className='w-full text-slate-900'>
-                        <h1 className="text-5xl font-bold">Box Office News!</h1>
+                        <h1 className="text-5xl font-bold">Box Office News</h1>
                         <p className="py-6">Fans on social media have often been spotted endorsing the latest box office collections of the movies featuring their treasured stars, to promote them further.</p>
                         <button className="btn btn-primary">Get Started</button>
                     </div>
