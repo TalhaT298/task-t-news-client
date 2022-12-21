@@ -6,7 +6,7 @@ const Home = () => {
     return (
         <div className='bg-slate-100'>
             {/* Hero Section */}
-            <div className="hero min-h-screen" style={{backgroundImage: `url("https://images.unsplash.com/photo-1668094497457-29f4bd775c95?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")`}}>
+            <div className="hero min-h-screen" style={{backgroundImage: `url("https://ichef.bbci.co.uk/news/976/cpsprodpb/184DE/production/_125405599_hi072924521.jpg")`}}>
                 <div className="hero-overlay bg-opacity-50"></div>
                 <div className="hero-content text-center text-neutral-content">
                     <div className="max-w-md text-white">
