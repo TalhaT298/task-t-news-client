@@ -45,8 +45,8 @@ const Home = () => {
                 <div className="w-11/12 lg:w-4/5 gap-10 mx-auto hero-content flex-col lg:flex-row">
                     <img src="https://placeimg.com/260/400/arch" className="w-full h-96 rounded-lg shadow-2xl" alt='...' />
                     <div className='w-full text-slate-900'>
-                        <h1 className="text-5xl font-bold">Box Office News</h1>
-                        <p className="py-6">Fans on social media have often been spotted endorsing the latest box office collections of the movies featuring their treasured stars, to promote them further.</p>
+                        <h1 className="text-5xl font-bold">Sports News</h1>
+                        <p className="py-6">Cricket is the most popular spectator sport in the country, and citizens often play it as a recreational activity; it generates the highest television viewership, and features full-capacity audiences in stadiums during international and Indian Premier League (IPL) matches. It is part of popular culture.</p>
                         <button className="btn btn-primary">Get Started</button>
                     </div>
                 </div>
@@ -56,8 +56,8 @@ const Home = () => {
                 <div className="w-11/12 lg:w-4/5 gap-10 mx-auto hero-content flex-col lg:flex-row-reverse">
                     <img src="https://placeimg.com/260/400/arch" className="w-full h-96 rounded-lg shadow-2xl" alt='...' />
                     <div className='w-full text-slate-900'>
-                        <h1 className="text-5xl font-bold">Box Office News!</h1>
-                        <p className="py-6">Box Office news, data and analysis covering the US, UK and international ... 'Black Adam' passes $300m at global box office; Japanese anime 'One Piece Film .</p>
+                        <h1 className="text-5xl font-bold">Latest News!</h1>
+                        <p className="py-6">Understand every aspect of the global economy – and know how to make your next move. Get unlimited digital access on Bloomberg.com or The Bloomberg App.</p>
                         <button className="btn btn-primary">Get Started</button>
                     </div>
                 </div>
